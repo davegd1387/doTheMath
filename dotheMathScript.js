@@ -3,6 +3,15 @@
 
 var lineCtr = 0;
 
+function $(id) {
+        'use strict';
+        if (typeof id == 'string') {
+            return document.getElementById(id);
+        }
+    }
+
+
+
 function addErrorMessage(msg) {
    'use strict'
     var errorDiv = U.$('errorDiv')
