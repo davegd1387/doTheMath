@@ -1,0 +1,58 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+<link rel="stylesheet" type="text/css" href="css/dotheMathstyle.css">
+
+
+<title>BFAST Price Breakdown Calculator</title>
+
+</head>
+
+<body>
+<table>
+<tr>
+<td colspan="2" align=left><img src="header-logo.jpg"  alt="BFAST Line Price Calculator" style="h1"></td>
+</tr>
+<tr>
+  <td><h1>BFAST</h1></td>
+  <td><h2>Line Price Calculator</h2></td>
+</tr> 
+
+</table> 
+<div id="errorDiv" name="errorDiv"></div>
+<table> 
+ <tr>
+  <td><input type=button value="New Line" name="newLine" id="newLine"  class="button"></td>
+  <td><input type=button value="Calculate" name="calculate" id="calculate"  class="button"></td>
+  <td><input type=button value="Vendor" name="vendorbtn" id="vendorbtn"  class="button"></td>
+ 
+  <td><input type=button value="Refresh" name="refreshbtn" id="refreshbtn" class="button"></td>
+  <td><input type=button value="Clear" name="clear" id="clear"  class="button"></td>
+  <td><input type=button value="BFAST" name="bfastbtn" id="bfastbtn" class="button"></td>
+</tr>
+</table>
+
+<table>
+  <tr><td></td>
+      <td><h2>Please Enter</h2></td><td align="right"><h2> Total Price:</h2></td>
+      <td><input type = text name="totalPrice" id="totalPrice" 
+           value="0" autofocus tabindex="1"  size="8" class="text"></td>
+  
+      <td align="right"><h2> # of Windows:</h2></td>
+      <td><input type = text name="totalWindows" id="totalWindows" 
+           value="0" autofocus tabindex="1"  size="8" class="text"></td>
+  </tr>
+</table>
+<div id=divMain>
+
+</div>
+
+
+<script src = "js/utilities.js"></script>
+<script src = "js/dotheMathscript.js"></script>
+
+
+</body>
+
+</html>
